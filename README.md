@@ -1,16 +1,31 @@
 # Chronos Pomodoro
 
+<div style='display: flex; flex-wrap:wrap;'>
+<img style='max-width: 50%;' src='.github/Screenshot_1.png' />
+<img style='max-width: 50%;' src='.github/Screenshot_3.png' />
+<img style='max-width: 50%;' src='.github/Screenshot_2.png' />
+</div>
+
 Projeto desenvolvido no curso de react do Prof. Luiz Otávio no nível iniciante do curso.
 
-### Sobre a técnica de pomodoro
+## Features do projeto
 
-[/about-pomodoro](src/pages/about-pomodoro/index.tsx)
+- Tema light/dark
+- Tempos ajustáveis para descanso e tempo de trabalho
+- Contador em segundo plano que não é interrompido ao navegar/minimizar a página
+- É possível instalar no navegador Google Chrome devido ao manifest
+- Executa audio ao terminar o ciclo
+- Persistência dos dados localmente
+
+## Sobre a técnica de pomodoro
+
+Saiba mais sobre a técnica na página [/about-pomodoro](src/pages/about-pomodoro/index.tsx)
 
 ## Scripts
 
-`pnpm run dev` -> Executar ambiente de desenvolvimento
-`pnpm run build` -> Geração da build de produção
-`pnpm run preview` -> visualização da build
+- `pnpm run dev` -> Executar ambiente de desenvolvimento
+- `pnpm run build` -> Geração da build de produção
+- `pnpm run preview` -> visualização da build
 
 ## Tecnologias
 
