@@ -10,6 +10,7 @@ Projeto desenvolvido no curso de react do Prof. Luiz Otávio no nível iniciante
 
 `pnpm run dev` -> Executar ambiente de desenvolvimento
 `pnpm run build` -> Geração da build de produção
+`pnpm run preview` -> visualização da build
 
 ## Tecnologias
 
