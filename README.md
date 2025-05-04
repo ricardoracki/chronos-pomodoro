@@ -1,6 +1,6 @@
 # Chronos Pomodoro
 
-<div style='display: flex; flex-wrap:wrap; align-items: center;'>
+<div style='display: flex; flex-wrap:wrap; align-items: center; width: 100%;'>
 <img style='max-width: 50%;' src='.github/Screenshot_1.png' />
 <img style='max-width: 50%;' src='.github/Screenshot_3.png' />
 <img style='max-width: 50%;' src='.github/Screenshot_2.png' />
