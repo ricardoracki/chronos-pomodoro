@@ -1,0 +1,53 @@
+.button {
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24rem;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+
+  margin: 4.8rem 0;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+
+  &[data-size='icon'] {
+    min-width: unset;
+    padding: 1rem;
+
+    & svg {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+  &[data-size='fit'] {
+    min-width: unset;
+    width: fit;
+    padding: 1rem;
+
+    & svg {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  &:hover {
+    filter: brightness(80%);
+  }
+
+  & svg {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+}
+
+.green {
+  background: var(--primary);
+  color: var(--text-over-primary);
+}
+
+.red {
+  background: var(--error);
+  color: var(--text-over-error);
+}

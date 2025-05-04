@@ -1,0 +1,25 @@
+.toastConfirm {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  text-align: center;
+
+  & > div {
+    display: flex;
+    gap: 1.6rem;
+    margin-top: 1.2rem;
+
+    & button {
+      margin: 0;
+      min-width: auto;
+
+      & svg {
+        height: 1.6rem;
+        width: 1.6rem;
+      }
+    }
+  }
+}
